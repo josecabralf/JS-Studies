@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto-boton {
+  font-weight: bold;
+  font-size: larger;
+}
+
+#botones{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(209, 200, 200);
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.boton-suma {
+  background-color: rgb(93, 206, 93);
+  border-radius: 200px;
+  padding: 10px;
+  margin: 3px;
+  border: rgb(15, 167, 15);
+}
+
+.boton-0 {
+  background-color: rgb(199, 65, 65);
+  border-radius: 200px;
+  padding: 10px;
+  margin: 3px;
+  border: rgb(167, 29, 29);
+}
+
+.boton-10 {
+  background-color: rgb(255, 162, 57);
+  border-radius: 200px;
+  padding: 10px;
+  margin: 3px;
+  border: rgb(182, 132, 39);
+}
+
+.boton-Demasido {
+  background-color: rgb(175, 175, 175);
+  border-radius: 200px;
+  padding: 10px;
+  margin: 3px;
+  border: rgb(134, 132, 128);
+}
+
+.boton-suma:hover {
+  background-color: rgb(108, 231, 108);
+}
+.boton-suma:active {
+  background-color: rgb(67, 182, 67);
+}
+
+.boton-0:hover {
+  background-color: rgb(233, 78, 78);
+}
+.boton-0:active {
+  background-color: rgb(177, 57, 57);
+}
+
+.boton-10:hover {
+  background-color: rgb(255, 180, 94);
+}
+.boton-10:active {
+  background-color: rgb(238, 144, 36);
+}
+
+.boton-Demasido:hover {
+  background-color: rgb(202, 202, 202);
+}
+.boton-Demasido:active {
+  background-color: rgb(167, 167, 167);
+}

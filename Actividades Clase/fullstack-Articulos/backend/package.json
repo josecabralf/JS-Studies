@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "backend hecho para practicar fullstack development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "José I. Cabral Farré",
+  "license": "ISC",
+  "dependencies": {
+    "aa-sqlite": "^1.0.29",
+    "cors": "^2.8.5",
+    "dotenv": "^16.1.3",
+    "express": "^4.18.2",
+    "sequelize": "^6.32.0",
+    "sqlite3": "^5.1.6"
+  }
+}

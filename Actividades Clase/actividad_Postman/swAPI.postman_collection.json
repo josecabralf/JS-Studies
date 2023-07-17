@@ -1,0 +1,31 @@
+{
+	"info": {
+		"_postman_id": "c021ef0b-1ecb-4b55-9ce9-27c94d1c4583",
+		"name": "swAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "https://swapi.dev/api/people/1/",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://swapi.dev/api/people/1/",
+					"protocol": "https",
+					"host": [
+						"swapi",
+						"dev"
+					],
+					"path": [
+						"api",
+						"people",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
